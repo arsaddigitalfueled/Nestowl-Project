@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondDealOffer">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/left_arrow"
+                        android:layout_width="15sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:text="Second Deal Offer"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save More with Nest PRO'S"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+
+            />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:layout_marginTop="15dp"
+            android:measureAllChildren="false"
+            android:scrollbars="none"
+            android:layout_marginRight="10dp"
+
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <FrameLayout
+                    android:background="@drawable/step_one_back"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="20dp"
+                            android:src="@drawable/step_icon_circle"
+                            android:layout_height="20dp" />
+                        <TextView
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="10sp"
+                            android:layout_height="wrap_content"
+                            android:text="step 1"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="14sp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Save more offer is "
+                            />
+
+                        <TextView
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:text="only eligible withe selected"
+                            />
+
+                        <TextView
+                            android:layout_marginBottom="05dp"
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:text="Nest Pro's"
+                            />
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+
+                <FrameLayout
+                    android:layout_marginLeft="05dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/step_one_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="20dp"
+                            android:src="@drawable/step_icon_circle"
+                            android:layout_height="20dp" />
+                        <TextView
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="10sp"
+                            android:layout_height="wrap_content"
+                            android:text="step 2"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="14sp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Select Proposal of eligible"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:text="Nest pro's while dealign whith them"
+                            />
+
+                        <TextView
+                            android:layout_marginBottom="05dp"
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:text="First Time"
+                            />
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:layout_marginTop="15dp"
+            android:measureAllChildren="false"
+            android:scrollbars="none"
+            android:layout_marginRight="10dp"
+
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <FrameLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/step_one_back"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="20dp"
+                            android:src="@drawable/step_icon_circle"
+                            android:layout_height="20dp" />
+                        <TextView
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="10sp"
+                            android:layout_height="wrap_content"
+                            android:text="step 3"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="14dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Close a deal and submit "
+                            />
+
+                        <TextView
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:text="Process in Lead (Ongoing)"
+                            />
+
+                        <TextView
+                            android:layout_marginBottom="05dp"
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:text="Section in Profle"
+                            />
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+
+                <FrameLayout
+                    android:layout_marginLeft="05dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/step_one_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+                        android:layout_marginRight="05dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/step_icon_circle"
+                            android:layout_height="20dp" />
+                        <TextView
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="10sp"
+                            android:layout_height="wrap_content"
+                            android:text="step 4"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="14dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Deal with same Nest Pro within 90"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:text="days submit Property or requirement"
+                            />
+
+                        <TextView
+                            android:layout_marginBottom="05dp"
+                            android:layout_marginTop="07dp"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:text="Get 0.20 off on service charge"
+                            />
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/dimen_bottom_10sp"
+
+        android:id="@+id/see_if_eligible_first_screen"
+        android:text="See if you are eligible"
+
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/countinue_background"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_45sp" />
+</FrameLayout>
+
+</LinearLayout>

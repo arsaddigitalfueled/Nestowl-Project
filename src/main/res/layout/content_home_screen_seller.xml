@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeScreenSeller"
+    tools:showIn="@layout/app_bar_home_screen_seller">
+<!--
+    <ScrollView
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/location_map"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                    <TextView
+                        android:layout_marginTop="05dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GURGAON"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="14sp"
+
+                        />
+                    <ImageView
+
+                        android:layout_marginTop="05dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_keyboard_arrow_down_black"
+                        />
+                    <FrameLayout
+                        android:background="@drawable/background_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+                        <EditText
+                            android:layout_gravity="center"
+                            android:textColorHint="#C4BEBE"
+                            android:layout_marginLeft="4dp"
+                            android:singleLine="true"
+                            android:background="@null"
+                            android:backgroundTint="@null"
+                            android:layout_width="match_parent"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Project,Property Details"
+                            />
+
+
+                        <ImageView
+
+                            android:layout_gravity="end|center_vertical"
+                            android:layout_width="25dp"
+                            android:layout_marginRight="02dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/serch_iconp"
+                            />
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#B3B0B0"
+                    />
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BUY"
+                        android:textSize="16sp"
+                        android:textColor="#552626"
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RENT"
+                        android:textSize="16sp"
+                        android:textColor="#817F7F"
+                        />
+                    <TextView
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PG"
+                        android:textSize="16sp"
+                        android:textColor="#817F7F"
+                        />
+
+
+                </LinearLayout>
+                <HorizontalScrollView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:paddingLeft="05dp"
+                            android:layout_marginRight="130dp"
+                            android:background="@drawable/background_search"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp">
+                            <TextView
+                                android:textStyle="bold"
+                                android:textSize="16sp"
+                                android:textColor="#000"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Save More"
+                                />
+                            <TextView
+                                android:layout_marginTop="05dp"
+                                android:textSize="13sp"
+                                android:textColor="#2B2929"
+                                android:layout_marginRight="05dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Save 0.30% on service charged on 2nd"
+                                />
+
+                            <TextView
+                                android:textSize="13sp"
+                                android:layout_marginRight="05dp"
+                                android:textColor="#2B2929"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Deal with Rahul                    >>"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </HorizontalScrollView>
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="15dp"
+                    android:textSize="22sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YOUR PROPERTIES"
+
+                    />
+                <HorizontalScrollView
+
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:layout_marginRight="10dp"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="275dp"
+                            android:layout_height="180dp">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_one"
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent" />
+                            <FrameLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/premium_back"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_marginLeft="05dp"
+                                    android:layout_marginRight="05dp"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:textColor="#000"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:text="Live"
+                                    />
+
+
+
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_marginLeft="105dp"
+                                android:layout_marginTop="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="PROPERTY ID:123"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+
+                                <TextView
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="PRICE:₹ 1.20l"
+                                    android:textColor="#000"
+                                    android:layout_marginTop="10dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:layout_marginTop="15dp"
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2 Bed Apartment for Rent"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sec, 65 Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="bottom|end"
+                                android:background="@drawable/post_free"
+                                android:layout_width="100dp"
+                                android:layout_marginBottom="10dp"
+
+                                android:layout_marginRight="10dp"
+                                android:layout_height="25dp">
+                                <TextView
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="#fff"
+                                    android:textSize="10sp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Manage Property"
+
+                                    />
+
+
+
+                            </FrameLayout>
+                        </FrameLayout>
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="275dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="180dp">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_one"
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent" />
+                            <FrameLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/premium_back"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_marginLeft="05dp"
+                                    android:layout_marginRight="05dp"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:textColor="#000"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:text="Live"
+                                    />
+
+
+
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_marginLeft="105dp"
+                                android:layout_marginTop="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="PROPERTY ID:123"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+
+                                <TextView
+                                    android:textSize="12sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="PRICE:₹ 1.20l"
+                                    android:textColor="#000"
+                                    android:layout_marginTop="10dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:layout_marginTop="15dp"
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2 Bed Apartment for Rent"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sec, 65 Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="bottom|end"
+                                android:background="@drawable/post_free"
+                                android:layout_width="100dp"
+                                android:layout_marginBottom="10dp"
+
+                                android:layout_marginRight="10dp"
+                                android:layout_height="25dp">
+                                <TextView
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="#fff"
+                                    android:textSize="10sp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Manage Property"
+
+                                    />
+
+
+
+                            </FrameLayout>
+                        </FrameLayout>
+
+
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+                <FrameLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/post_property"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp">
+
+                    <ImageView
+                        android:layout_marginRight="15dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/post_propertys"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="POST PROPERTY"
+
+                                />
+                            <TextView
+                                android:textSize="16sp"
+                                android:textColor="#000"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Go to property listing pagest to"
+
+                                />
+
+                            <TextView
+                                android:textSize="16sp"
+                                android:textColor="#000"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="view/ image all posting."
+
+                                />
+                            <FrameLayout
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/post_free"
+                                android:layout_width="150dp"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="#fff"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Post Property Free"
+
+                                    />
+
+
+
+                            </FrameLayout>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+
+                </FrameLayout>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="15dp"
+                    android:textSize="22sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RESPONSES ON ID : 1234"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_marginRight="05dp"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/background_search"
+
+                        android:layout_height="150dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content">
+
+                            <FrameLayout
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="BUYERS"
+                                    android:textColor="#000"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    />
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_gravity="end"
+                                    android:src="@drawable/user_iconns"
+                                    android:layout_height="25dp" />
+
+                            </FrameLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="4"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Buyer Interested"
+                                android:textColor="#000"
+                                android:layout_marginTop="10dp"
+                                android:textSize="16sp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:text="View Leads >>"
+                                android:textColor="#000"
+                                android:textSize="15sp"
+                                />
+
+                        </LinearLayout>
+
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="05dp"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_search"
+
+                        android:layout_height="150dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content">
+
+                            <FrameLayout
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="NEST PRO'S"
+                                    android:textColor="#000"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    />
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_gravity="end"
+                                    android:layout_marginRight="10dp"
+                                    android:src="@drawable/user_iconns"
+                                    android:layout_height="25dp" />
+
+                            </FrameLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="4"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nest Pro's Interested"
+                                android:textColor="#000"
+                                android:layout_marginTop="10dp"
+                                android:textSize="16sp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="View Leads >>"
+                                android:textColor="#000"
+                                android:layout_marginTop="15dp"
+                                android:textSize="15sp"
+                                />
+
+                        </LinearLayout>
+
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="15dp"
+                    android:textSize="22sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OUR OFFERING FOR YOU"
+
+                    />
+
+                <HorizontalScrollView
+
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:layout_marginRight="10dp"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <FrameLayout
+
+                            android:background="@drawable/background"
+                            android:layout_width="150dp"
+                            android:layout_marginRight="05dp"
+                            android:layout_height="175dp">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_nine"
+                                android:layout_width="150dp"
+                                android:layout_height="175dp" />
+
+
+                        </FrameLayout>
+
+                        <FrameLayout
+
+                            android:background="@drawable/background"
+                            android:layout_width="150dp"
+                            android:layout_marginLeft="05dp"
+                            android:layout_marginRight="05dp"
+                            android:layout_height="175dp">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_nine"
+                                android:layout_width="150dp"
+                                android:layout_height="175dp" />
+
+
+                        </FrameLayout>
+                        <FrameLayout
+
+                            android:background="@drawable/background"
+                            android:layout_width="150dp"
+                            android:layout_marginLeft="05dp"
+                            android:layout_marginRight="05dp"
+                            android:layout_height="175dp">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_nine"
+                                android:layout_width="150dp"
+                                android:layout_height="175dp" />
+
+
+                        </FrameLayout>
+
+
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/frame_layout_home_two"
+        android:layout_height="match_parent">
+
+
+
+    </FrameLayout>
+</LinearLayout>

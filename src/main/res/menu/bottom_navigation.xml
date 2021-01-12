@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/nestowll_icon"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_activity"
+        android:icon="@drawable/home_icon_two"
+        android:title="Activity" />
+    <item
+        android:id="@+id/nav_post_property"
+        android:icon="@drawable/post_p"
+
+        android:title="Property" />
+    <item
+        android:id="@+id/navigation_alert"
+        android:icon="@drawable/home_icon_four"
+        android:title="Alert" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/home_icon_five"
+        android:title="Profile" />
+
+
+
+</menu>

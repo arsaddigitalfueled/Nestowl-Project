@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BuyerSellerActivity">
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="25dp"
+            android:src="@drawable/keyboard_backspace_black"
+            android:layout_height="25dp" />
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="I want to register as"
+
+                />
+            <FrameLayout
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bacground_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:id="@+id/buyer"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Buyer"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="18sp"/>
+
+                        <TextView
+                            android:layout_marginBottom="08dp"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="02dp"
+                            android:layout_height="wrap_content"
+                            android:text="Get Unlimited Verification Listingsn\nOn Go"
+                            android:textColor="#000"
+                            android:textSize="13sp"
+
+
+                            />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/search_iconn"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_width="37dp"
+                        android:layout_height="37dp" />
+
+                </FrameLayout>
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_marginTop="15dp"
+                android:id="@+id/seller"
+                android:background="@drawable/bacground_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Seller"
+                            android:textStyle="bold"
+                            android:layout_marginTop="12dp"
+
+                            android:textColor="#000"
+                            android:textSize="18sp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Post Publically or to Locally\nNest Professionals"
+                            android:textColor="#000"
+                            android:layout_marginTop="02dp"
+                            android:layout_marginBottom="08dp"
+                            android:textSize="14sp"
+
+
+                            />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/key_icon"
+                        android:layout_gravity="end|center"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"
+                android:text="Continue"
+                android:id="@+id/continue_buyer_seller"
+                android:background="@drawable/countinue_background"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_45sp" />
+
+            <LinearLayout
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+                <TextView
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Note:"
+                    />
+                <TextView
+                    android:textSize="12sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You can shift to buyer seller mode\nas per your needs."
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

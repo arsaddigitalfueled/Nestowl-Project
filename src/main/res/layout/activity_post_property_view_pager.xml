@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostPropertyViewPagerActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/left_arrow"
+                        android:layout_width="18sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:text="Post Property"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_post_property"
+        app:tabSelectedTextColor="@color/brown_color"
+        app:tabTextColor="#000"
+
+        app:tabIndicatorColor="@color/brown_color"
+
+        app:tabIndicatorHeight="03dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        app:tabGravity="fill"
+
+        app:tabTextAppearance="@style/tab_text"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_post_property"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaveMoreSeeifEligible">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/left_arrow"
+                        android:layout_width="15sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:text="Save More"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Sahil"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/dimen_space_19sp"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You're eligible for save more offer with following Pro's"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="05dp"
+        android:textSize="14sp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/akhil_frame_back"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <FrameLayout
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="05dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+                    android:layout_gravity="center_vertical"
+                    android:text="Previous Deal "
+
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+                <ImageView
+                    android:layout_marginLeft="05dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="15dp"
+                    android:src="@drawable/right_arrow"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+                    android:layout_marginLeft="05dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Bought 1 Acre Land "
+
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </FrameLayout>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="35dp"
+            android:layout_gravity="bottom"
+            android:background="#A7A6A6" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_marginTop="05dp"
+                android:layout_width="55dp"
+                android:layout_marginLeft="05dp"
+                android:background="@drawable/circle_background"
+                android:layout_height="55dp">
+                <ImageView
+                    android:paddingRight="02dp"
+                    android:paddingLeft="02dp"
+                    android:layout_width="55dp"
+                    android:src="@drawable/user_icon_p"
+                    android:layout_gravity="center"
+                    android:layout_height="55dp" />
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginTop="03dp"
+
+                android:orientation="vertical"
+                android:layout_marginLeft="65dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Rahul Lakhan"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Sec 23, Huda "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Deals in - Residential "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <FrameLayout
+
+                android:layout_marginLeft="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+
+                <FrameLayout
+
+                    android:layout_marginTop="05dp"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="05dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15sp">
+
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:numStars="3"
+                        android:clickable="true"
+
+
+                        android:stepSize="0.1"
+                        android:isIndicator="true"
+                        />
+                </FrameLayout>
+
+
+
+            </FrameLayout>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="06sp"
+            android:layout_marginLeft="05dp"
+            android:layout_marginRight="05dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <FrameLayout
+                    android:layout_weight="1"
+                    android:layout_marginLeft="05dp"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/nest_pro_rectangle"
+                    android:layout_height="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="View Profile"
+                        android:textColor="@color/brown_color"
+                        android:textSize="12sp"
+
+                        />
+
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_marginLeft="05dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/contact_builder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submit Proposal"
+
+                        />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/akhil_frame_back"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <FrameLayout
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="05dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+                    android:layout_gravity="center_vertical"
+                    android:text="Previous Deal "
+
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+                <ImageView
+                    android:layout_marginLeft="05dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="15dp"
+                    android:src="@drawable/right_arrow"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+                    android:layout_marginLeft="05dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Sold 1 Acre Land "
+
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </FrameLayout>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="35dp"
+            android:layout_gravity="bottom"
+            android:background="#A7A6A6" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_marginTop="05dp"
+                android:layout_width="55dp"
+                android:layout_marginLeft="05dp"
+                android:background="@drawable/circle_background"
+                android:layout_height="55dp">
+                <ImageView
+                    android:paddingRight="02dp"
+                    android:paddingLeft="02dp"
+                    android:layout_width="55dp"
+                    android:src="@drawable/user_icon_p"
+                    android:layout_gravity="center"
+                    android:layout_height="55dp" />
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginTop="03dp"
+
+                android:orientation="vertical"
+                android:layout_marginLeft="65dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Mohit Dhanga"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Sec 23, Huda "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Deals in - Residential "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <FrameLayout
+
+                android:layout_marginLeft="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+
+                <FrameLayout
+
+                    android:layout_marginTop="05dp"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="05dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15sp">
+
+                    <RatingBar
+                        android:id="@+id/rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:numStars="3"
+                        android:clickable="true"
+
+
+                        android:stepSize="0.1"
+                        android:isIndicator="true"
+                        />
+                </FrameLayout>
+
+
+
+            </FrameLayout>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="05dp"
+            android:layout_marginBottom="06dp"
+            android:layout_marginRight="05dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <FrameLayout
+                    android:layout_weight="1"
+                    android:layout_marginLeft="05dp"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/nest_pro_rectangle"
+                    android:layout_height="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="View Profile"
+                        android:textColor="@color/brown_color"
+                        android:textSize="12sp"
+
+                        />
+
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_marginLeft="05dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/contact_builder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submit Proposal"
+
+                        />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </FrameLayout>
+
+
+</LinearLayout>
+
+
+
+
+</HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Previous Deal with 90 Days"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dimen_space_19sp"
+                android:textSize="16sp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:layout_marginTop="05dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <RadioButton
+        android:buttonTint="@color/black_light"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:checked="false"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Rohit Lathar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_marginTop="2dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="07dp"
+                    android:background="@drawable/nest_pro_rectangle"
+                    android:layout_height="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="View Contact"
+                        android:textColor="@color/brown_color"
+                        android:textSize="12sp"
+
+                        />
+
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_marginTop="05dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <RadioButton
+                            android:buttonTint="@color/black_light"
+                            android:layout_weight="1"
+                            android:textSize="14sp"
+                            android:checked="false"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Mohit Dhingra"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_marginLeft="08dp"
+                        android:layout_marginTop="2dp"
+
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/nest_pro_rectangle"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:text="View Contact"
+                            android:textColor="@color/brown_color"
+                            android:textSize="12sp"
+
+                            />
+
+
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <FrameLayout
+
+                android:background="@drawable/nest_card_back"
+                android:layout_width="270dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="100dp">
+                <FrameLayout
+
+                    android:fitsSystemWindows="true"
+                    android:background="@drawable/background_image_personal"
+                    android:layout_width="130dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="98dp" />
+
+
+                <LinearLayout
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:textSize="12sp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="2 BHK"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                        <FrameLayout
+                            android:layout_marginLeft="35dp"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/active_background"
+                            android:layout_height="15dp">
+                            <TextView
+                                android:layout_marginLeft="7dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ongoing"
+                                android:textSize="10dp"
+                                android:textColor="#20C727"
+
+
+                                />
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="680 Sq.ft."
+                        android:textColor="@color/black_light"
+                        android:layout_marginTop="05dp"
+
+                        />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:layout_marginTop="05dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹ 2 Crore"
+                        android:textColor="#000"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="05dp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_marginTop="03dp"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/location_top"
+                            />
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            android:layout_marginLeft="05dp"
+                            android:layout_marginTop="05dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tilak Nagar"
+                            android:textColor="#000"
+
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="14sp"
+                    android:text="Submit if Deal is Closed for Save more offer"
+
+                    />
+
+
+
+            </FrameLayout>
+
+            <RadioGroup
+                android:id="@+id/rg_save_more"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+
+
+                <RadioButton
+                    android:id="@+id/radiobutton"
+                    android:buttonTint="@color/black_light"
+                    android:textSize="14sp"
+                    android:checked="false"
+                    android:textColor="#000"
+                    android:text="Yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+
+                    android:id="@+id/radiobutton1"
+
+                    android:checked="false"
+
+                    android:buttonTint="@color/black_light"
+
+                    android:textSize="14sp"
+                    android:textColor="#000"
+                    android:text="No"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

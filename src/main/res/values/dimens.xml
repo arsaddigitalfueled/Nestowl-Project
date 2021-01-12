@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="home_long_size">16sp</dimen>
+    <dimen name="home_card_long">14sp</dimen>
+    <dimen name="background_card_sample">10sp</dimen>
+
+    <dimen name="background_text_bottom">12dp</dimen>
+    <dimen name="blue_horizontal_dimen">16dp</dimen>
+    <dimen name="blue_dimen_kam">12dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="dimen_15sp">15dp</dimen>
+    <dimen name="dimen_45sp">45dp</dimen>
+    <dimen name="dimen_space_19sp">19dp</dimen>
+
+    <dimen name="dimen_bottom_10sp">10dp</dimen>
+    <dimen name="drawer_14dp">16dp</dimen>
+    <dimen name="drawer_top_15dp">14dp</dimen>
+    <dimen name="drawer_img_size22sp">22dp</dimen>
+    <dimen name="filter_18sp">18dp</dimen>
+    <dimen name="filter_24sp">25dp</dimen>
+    <dimen name="filter_13sp">11dp</dimen>
+    <dimen name="home_size_text19sp">20dp</dimen>
+    <dimen name="home_size_text12sp">12dp</dimen>
+    <dimen name="rera_14sp">14dp</dimen>
+    <dimen name="sign_up_40sp">40dp</dimen>
+    <dimen name="text_sign_up_16sp">16dp</dimen>
+    <dimen name="button_all_45sp">45dp</dimen>
+    <dimen name="view_profile_offer_28sp">28dp</dimen>
+    <dimen name="text_profile_offer_12sp">12dp</dimen>
+    <dimen name="bottom_size_height_button_40sp">37dp</dimen>
+
+
+
+
+</resources>

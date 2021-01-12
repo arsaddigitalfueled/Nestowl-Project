@@ -1,0 +1,1458 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.Fragment.FiltersFragemetnLimit">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <HorizontalScrollView
+                android:fillViewport="true"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Flat / Apartment"
+
+                            />
+
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="House"
+
+                            />
+
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Villa"
+
+                            />
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:fillViewport="true"
+                android:layout_marginTop="@dimen/filter_18sp"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Builder Floor Apartment"
+
+                            />
+
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Studio Apartment"
+
+                            />
+
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Studio Apartment"
+
+                            />
+
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Studio Apartment"
+
+                            />
+
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Studio Apartment"
+
+                            />
+
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Villa"
+
+                            />
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:text="Budget"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+            <FrameLayout
+                android:layout_marginTop="@dimen/filter_13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹ 0.0"
+                    android:textColor="#000"
+
+                    android:layout_gravity="center_vertical"
+                    android:textSize="12sp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹ 7.0 Cr+"
+
+                    android:textColor="@color/brown_color"
+
+                    android:layout_gravity="end"
+                    android:textSize="12sp"
+
+                    />
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:layout_width="17dp"
+                    android:background="@drawable/circle_filter_background"
+                    android:layout_height="17dp"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+
+                    android:textStyle="bold"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="17dp"
+                    android:background="@color/brown_color" />
+
+                <FrameLayout
+                    android:layout_width="17dp"
+                    android:layout_gravity="end"
+                    android:background="@drawable/circle_filter_background"
+                    android:layout_height="17dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:text="Bedroom"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+
+            <HorizontalScrollView
+                android:fillViewport="true"
+                android:layout_marginTop="@dimen/filter_18sp"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="1 BHK"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="2 BHK"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="3 BHK"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="1 BHK"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text=">1 BHK"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:text="Bathroom"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+
+            <HorizontalScrollView
+                android:fillViewport="true"
+                android:layout_marginTop="@dimen/filter_13sp"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="1 +"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="2 +"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="3 +"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="4 +"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="5 +"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:text="Furnising Status"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+            <HorizontalScrollView
+                android:fillViewport="true"
+                android:layout_marginTop="@dimen/filter_13sp"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Furnished"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Semi-Furnished"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Un-Furnished"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+
+
+
+
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text=">1 BHK"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+            <FrameLayout
+                android:layout_marginTop="@dimen/filter_24sp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carpet Area"
+                    android:textColor="#000"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+
+                    />
+
+
+                <LinearLayout
+                    android:layout_gravity="end|center_vertical"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sq.ft."
+
+                        android:layout_marginRight="05dp"
+
+                        android:textColor="@color/brown_color"
+
+                        android:layout_gravity="center_vertical"
+                        android:textSize="12sp"
+
+                        />
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_gravity="center_vertical"
+
+                        android:src="@drawable/arrow_down_filter"
+                        android:layout_height="10dp" />
+
+
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+<FrameLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:background="@drawable/eligible_for_second_deal"
+        android:layout_width="wrap_content"
+
+        android:layout_height="20dp">
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="05dp"
+            android:layout_marginRight="05dp"
+            android:textSize="12sp"
+            android:textColor="@color/black_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 Sq.ft."
+
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@drawable/eligible_for_second_deal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end|center_vertical"
+
+        android:layout_height="20dp">
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="05dp"
+            android:layout_marginRight="05dp"
+            android:textSize="12sp"
+            android:id="@+id/tv_filter"
+            android:textColor="@color/black_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2450 Sq.ft."
+
+            />
+
+    </FrameLayout>
+
+
+
+</FrameLayout>
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:layout_width="17dp"
+                    android:background="@drawable/circle_filter_background"
+                    android:layout_height="17dp"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+
+                    android:textStyle="bold"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="17dp"
+                    android:background="@color/brown_color" />
+
+                <FrameLayout
+                    android:layout_width="17dp"
+                    android:layout_gravity="end"
+                    android:background="@drawable/circle_filter_background"
+                    android:layout_height="17dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:text="Possession Since"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+            <HorizontalScrollView
+                android:fillViewport="true"
+                android:layout_marginTop="@dimen/filter_13sp"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Ready to move"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Pre-Launce"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Under-Construnction"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:text="Posted Since"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+            <HorizontalScrollView
+                android:fillViewport="true"
+                android:layout_marginTop="13dp"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Yesterda"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Last Week"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Last 15 Days"
+
+                            />
+
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Last Month"
+
+                            />
+
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Anytime"
+
+                            />
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:text="Sale Type"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+            <HorizontalScrollView
+                android:fillViewport="true"
+                android:layout_marginTop="@dimen/filter_13sp"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="New Properties"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="Resale Properties"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:text="Floor Number"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basement"
+                    android:textColor="#000"
+
+                    android:layout_gravity="center_vertical"
+                    android:textSize="12sp"
+
+                    />
+
+                <FrameLayout
+                    android:background="@drawable/eligible_for_second_deal"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+
+                    android:layout_height="20dp">
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="08dp"
+                        android:layout_marginRight="08dp"
+                        android:textSize="12sp"
+                        android:textColor="@color/black_light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="120"
+
+                        />
+
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:layout_width="17dp"
+                    android:background="@drawable/circle_filter_background"
+                    android:layout_height="17dp"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+
+                    android:textStyle="bold"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="17dp"
+                    android:background="@color/brown_color" />
+
+                <FrameLayout
+                    android:layout_width="17dp"
+                    android:layout_gravity="end"
+                    android:background="@drawable/circle_filter_background"
+                    android:layout_height="17dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_24sp"
+                android:text="Facing"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+            <HorizontalScrollView
+                android:fillViewport="true"
+                android:layout_marginTop="@dimen/filter_13sp"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="East"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="North"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="North-East"
+
+                            />
+
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="North-West"
+
+                            />
+
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="North-South"
+
+                            />
+
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="North-East"
+
+                            />
+
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="North-East"
+
+                            />
+
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/employe_circle_rounded"
+                        android:layout_height="27dp">
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/brown_color"
+                            android:layout_height="wrap_content"
+                            android:text="North-East"
+
+                            />
+
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+
+<FrameLayout
+    android:layout_marginTop="@dimen/filter_24sp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rera Compliant"
+        android:layout_gravity="center_vertical"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        />
+    <FrameLayout
+        android:layout_width="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/togle_sample"
+        android:layout_gravity="center_vertical|end"
+        android:layout_height="15dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="15dp"
+        android:background="@drawable/toggle_second"
+        android:layout_gravity="center_vertical|end"
+        android:layout_height="15dp">
+
+    </FrameLayout>
+
+</FrameLayout>
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#A7A6A6" />
+
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+
+                android:id="@+id/tv_next_make_offer"
+                android:layout_marginTop="10dp"
+                android:text="View 1.1k Properties"
+
+                android:background="@drawable/countinue_background"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_45sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+

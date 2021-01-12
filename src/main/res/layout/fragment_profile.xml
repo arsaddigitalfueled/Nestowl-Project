@@ -1,0 +1,390 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.Fragment.ProfileFragment">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="65dp">
+
+
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:textSize="18sp"
+                       android:textColor="#000"
+                       android:textStyle="bold"
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+
+                       android:text="Sahil Dhingra"
+                       />
+
+                   <TextView
+                       android:textSize="11sp"
+                       android:textColor="@color/black_light"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+
+                       android:text="sahidhi90@gmail.com"
+                       />
+                   <LinearLayout
+                       android:layout_marginTop="05dp"
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="20dp">
+
+
+                       <TextView
+                           android:textSize="12sp"
+                           android:layout_gravity="center_vertical"
+                           android:textColor="#000"
+                           android:id="@+id/id_view_nest_profile"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+
+                           android:text="View Nest Profile"
+                           />
+                       <ImageView
+                           android:layout_gravity="center_vertical"
+                           android:layout_width="08dp"
+                           android:layout_marginTop="02dp"
+                           android:src="@drawable/arrow_right"
+                           android:layout_marginLeft="03dp"
+                           android:layout_height="08dp" />
+
+                   </LinearLayout>
+
+
+               </LinearLayout>
+               <FrameLayout
+                   android:layout_gravity="end|center_vertical"
+                   android:layout_marginRight="05dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+
+                   <ImageView
+                       android:layout_width="50dp"
+                       android:layout_gravity="end"
+                       android:src="@drawable/user_icon_p"
+                       android:layout_height="50dp" />
+
+               </FrameLayout>
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D1CFCF"
+               android:layout_marginTop="10dp"
+               android:layout_height="1dp" />
+
+           <LinearLayout
+
+               android:layout_width="match_parent"
+               android:layout_marginTop="05dp"
+               android:layout_height="wrap_content">
+               <LinearLayout
+                   android:id="@+id/lnr_home"
+                   android:layout_weight="1"
+                   android:orientation="vertical"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+
+
+                   <ImageView
+                       android:layout_gravity="center"
+                       android:src="@drawable/swithc_to_owner"
+                       android:layout_width="25dp"
+                       android:layout_height="25dp" />
+                   <TextView
+                       android:layout_gravity="center"
+                       android:layout_marginTop="02dp"
+
+                       android:textColor="#000"
+
+                       android:textSize="12sp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+
+                       android:text="Switch to Owner"
+                       />
+
+               </LinearLayout>
+               <LinearLayout
+
+
+
+
+                   android:layout_weight="1"
+                   android:id="@+id/lnr_activity"
+                   android:orientation="vertical"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+
+
+                   <ImageView
+                       android:layout_gravity="center"
+
+                       android:src="@drawable/notification_bell"
+                       android:layout_width="25dp"
+                       android:layout_height="25dp" />
+                   <TextView
+                       android:textSize="12sp"
+                       android:layout_gravity="center"
+                       android:layout_marginTop="02dp"
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="#000"
+
+
+                       android:text="Notification"
+                       />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:id="@+id/lnr_post_property"
+                   android:layout_weight="1"
+
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+
+
+                   <ImageView
+                       android:layout_gravity="center"
+                       android:src="@drawable/edit_profile"
+
+                       android:layout_width="25dp"
+                       android:layout_height="25dp" />
+                   <TextView
+                       android:layout_gravity="center"
+                       android:textColor="#000"
+
+                       android:textSize="12sp"
+                       android:layout_width="wrap_content"
+                       android:layout_marginTop="02dp"
+
+                       android:layout_height="wrap_content"
+
+                       android:text="Edit Profile"
+                       />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:id="@+id/lnr_alert"
+                   android:layout_weight="1"
+
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+
+
+                   <ImageView
+                       android:layout_gravity="center"
+                       android:src="@drawable/payment"
+                       android:layout_width="25dp"
+                       android:layout_height="25dp" />
+                   <TextView
+                       android:layout_gravity="center"
+                       android:layout_marginTop="02dp"
+                       android:textSize="12sp"
+                       android:layout_width="wrap_content"
+                       android:textColor="#000"
+                       android:layout_height="wrap_content"
+
+                       android:text="Payments"
+                       />
+
+               </LinearLayout>
+
+
+
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D1CFCF"
+               android:layout_marginTop="10dp"
+               android:layout_height="1dp" />
+           <FrameLayout
+               android:layout_marginTop="25dp"
+               android:layout_width="match_parent"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               android:background="@drawable/background_profile"
+               android:layout_height="97dp">
+               <LinearLayout
+                   android:layout_marginTop="05dp"
+                   android:orientation="vertical"
+
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:textColor="#000"
+                       android:textSize="14sp"
+                       android:textStyle="bold"
+                       android:layout_height="wrap_content"
+                       android:text="WE SERVE OUR HEROS TOO"
+
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:textColor="@color/black_light"
+                       android:textSize="12sp"
+                       android:layout_height="wrap_content"
+                       android:text="If you to army,Police,Doctor,Professional,fill details"
+
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:textColor="@color/black_light"
+                       android:textSize="12sp"
+                       android:layout_height="wrap_content"
+                       android:text="to save more with Nest Pro's"
+
+                       />
+
+
+
+               </LinearLayout>
+
+               <FrameLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="@dimen/view_profile_offer_28sp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="05dp"
+                   android:layout_gravity="bottom|end"
+                   android:background="@drawable/background_edit_camera">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="@dimen/view_profile_offer_28sp"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="10dp"
+                       android:gravity="center"
+                       android:text="Complete Details"
+                       android:textColor="#fff"
+                       android:textSize="12sp" />
+
+               </FrameLayout>
+           </FrameLayout>
+           <LinearLayout
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="22sp"
+               android:layout_width="wrap_content"
+               android:orientation="vertical"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:textColor="#000"
+                   android:textSize="17sp"
+                   android:textStyle="bold"
+                   android:layout_height="wrap_content"
+                   android:text="ADDITIONAL ACTIVITY"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:textColor="#444343"
+                   android:textSize="14sp"
+                   android:layout_marginTop="07dp"
+                   android:layout_height="wrap_content"
+                   android:text="Saved Properties"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:textColor="@color/black_light"
+                   android:textSize="14sp"
+                   android:layout_marginTop="07dp"
+
+                   android:layout_height="wrap_content"
+                   android:text="Saved Search"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:textColor="@color/black_light"
+                   android:textSize="14sp"
+                   android:layout_marginTop="07dp"
+                   android:layout_height="wrap_content"
+                   android:text="Recent Search"
+                   />
+
+
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D1CFCF"
+               android:layout_marginTop="25dp"
+               android:layout_height="1dp" />
+           <LinearLayout
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="28dp"
+               android:layout_width="wrap_content"
+               android:orientation="vertical"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:textColor="#000"
+                   android:textSize="14sp"
+                   android:layout_height="wrap_content"
+                   android:text="Send Feedback"
+                   />
+
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:textColor="#000"
+                   android:textSize="14sp"
+                   android:layout_marginTop="07dp"
+                   android:layout_height="wrap_content"
+                   android:text="Rate Us on the Play Store"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:textColor="#000"
+                   android:textSize="14sp"
+                   android:layout_marginTop="07dp"
+                   android:layout_height="wrap_content"
+                   android:text="Logout"
+                   />
+
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </ScrollView>
+
+
+</LinearLayout>

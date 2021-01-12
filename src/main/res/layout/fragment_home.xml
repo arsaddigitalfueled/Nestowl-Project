@@ -1,0 +1,1912 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.Fragment.HomeFragment">
+
+    <ScrollView
+        android:id="@+id/scroll_id_home_seller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginTop="09dp"
+                        android:src="@drawable/location_map"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp" />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GURGAON"
+
+                        android:textAlignment="center"
+                        android:layout_marginLeft="02dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="8sp"
+
+                        />
+                    <ImageView
+
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_keyboard_arrow_down_black"
+                        />
+                    <FrameLayout
+                        android:background="@drawable/background_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp">
+                        <EditText
+                            android:layout_gravity="center_vertical"
+                            android:textColorHint="#C4BEBE"
+                            android:layout_marginLeft="10dp"
+                            android:singleLine="true"
+                            android:background="@null"
+                            android:layout_marginRight="20dp"
+                            android:backgroundTint="@null"
+                            android:layout_width="match_parent"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Project,Property Details"
+                            />
+
+
+
+
+
+
+
+                        <ImageView
+
+                            android:layout_gravity="end|center_vertical"
+                            android:layout_width="20dp"
+                            android:layout_marginRight="05dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/search_view"
+
+                            android:src="@drawable/serch_iconp"
+                            />
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+                <HorizontalScrollView
+                    android:layout_marginTop="@dimen/filter_24sp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:layout_marginRight="10dp"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:paddingLeft="08dp"
+                            android:id="@+id/id_home_frg_hello_sahil"
+                            android:background="@drawable/background_search"
+                            android:orientation="vertical"
+                            android:layout_width="225dp"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="#000"
+                                android:layout_marginTop="07dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hello Sahil"
+                                />
+                            <TextView
+                                android:layout_marginTop="03dp"
+                                android:textSize="12sp"
+                                android:textColor="#2B2929"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Continue your search"
+                                />
+
+                            <TextView
+                                android:textSize="12sp"
+                                android:textColor="#2B2929"
+                                android:layout_marginTop="05dp"
+                                android:layout_marginBottom="07dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 BHK in Gurgaon"
+                                />
+
+                        </LinearLayout>
+
+
+    <TextView
+        android:textSize="14sp"
+        android:layout_marginRight="07dp"
+        android:textColor="#2B2929"
+        android:layout_marginBottom="07dp"
+        android:layout_gravity="bottom|end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">>"
+        />
+
+</FrameLayout>
+
+
+                        <FrameLayout
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/background_search"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:textSize="14sp"
+                                android:layout_marginRight="07dp"
+                                android:textColor="#2B2929"
+                                android:layout_marginBottom="07dp"
+                                android:layout_gravity="bottom|end"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Continue>>"
+                                />
+
+                            <LinearLayout
+                                android:paddingLeft="08dp"
+                                android:orientation="vertical"
+                                android:layout_width="225dp"
+                                android:paddingRight="10dp"
+                                android:id="@+id/save_more_linear_layour"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textSize="14sp"
+                                    android:textColor="#000"
+                                    android:layout_marginTop="07dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Save More"
+                                    />
+                                <TextView
+                                    android:layout_marginTop="03dp"
+                                    android:textSize="12sp"
+                                    android:textColor="#2B2929"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Save 0.30% on Services change on 2nd"
+                                    />
+                                <TextView
+                                    android:layout_marginTop="03dp"
+                                    android:textSize="12sp"
+                                    android:textColor="#2B2929"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Deal with Rahul"
+                                    />
+
+
+                            </LinearLayout>
+
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+                </HorizontalScrollView>
+                <FrameLayout
+                    android:layout_marginTop="@dimen/home_size_text19sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="@dimen/home_long_size"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NEST OWNERS"
+
+                    />
+                    <TextView
+                        android:textColor="@color/brown"
+                        android:textSize="12sp"
+                        android:id="@+id/see_all_nestowener"
+                        android:layout_marginRight="15dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See All"
+
+                        />
+
+
+                </FrameLayout>
+                <HorizontalScrollView
+
+                    android:layout_marginTop="@dimen/home_size_text12sp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:layout_marginRight="10dp"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:id="@+id/home_frame_nest"
+
+                        android:layout_height="match_parent">
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp" />
+                            <FrameLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/premium_back"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_marginLeft="05dp"
+                                    android:layout_marginRight="05dp"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:textColor="#000"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:text="PREMIUM"
+                                    />
+
+
+
+                            </FrameLayout>
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 1.12 Crore, 3BHK Flat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Para, Sector 70 A,"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp" />
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 1.12 Lakh+, 3BHK Flat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Loni, Sector 70 A,"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <FrameLayout
+                    android:layout_marginTop="@dimen/home_size_text19sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="@dimen/home_long_size"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NEST PROFESSIONAL"
+
+                        />
+                    <TextView
+                        android:textColor="@color/brown"
+                        android:textSize="12sp"
+                        android:id="@+id/see_all_nest_professional"
+                        android:layout_marginRight="15dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See All"
+
+                        />
+
+
+                </FrameLayout>
+
+                <HorizontalScrollView
+
+                    android:layout_marginTop="@dimen/home_size_text12sp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:layout_marginRight="10dp"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/lnr_nest_professional"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:layout_height="match_parent">
+
+                            <FrameLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp"
+                                android:background="@drawable/property_three"
+                                android:fitsSystemWindows="true" />
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 3.8 Crore, 3BHK Flat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Huda, Sector 70 A,"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_four"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp" />
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 1.12 Lakh, 3BHK Flat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Para, Sector 70 A,"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <FrameLayout
+                    android:layout_marginTop="@dimen/home_size_text19sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="@dimen/home_long_size"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CITY CENTRIC"
+
+                        />
+                    <TextView
+                        android:textColor="@color/brown"
+                        android:textSize="12sp"
+                        android:id="@+id/see_all_city_centre"
+                        android:layout_marginRight="15dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See All"
+
+                        />
+
+
+                </FrameLayout>
+
+                <HorizontalScrollView
+
+                    android:layout_marginTop="@dimen/home_size_text12sp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:layout_marginRight="10dp"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:id="@+id/lnr_city_centric"
+                        android:layout_height="match_parent">
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp" />
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 4.11 Crore, 3BHK Flat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Para, Sector 70 A,"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp" />
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 1.12 Crore, 3BHK Flat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Para, Sector 70 A,"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <FrameLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/post_property"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp">
+
+                    <ImageView
+                        android:layout_marginRight="15dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/post_propertys"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="16sp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="POST PROPERTY"
+
+                                />
+                            <TextView
+                                android:textSize="13sp"
+                                android:textColor="#000"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Go to property listing pagest to"
+
+                                />
+
+                            <TextView
+                                android:textSize="13sp"
+                                android:textColor="#000"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="view/ image all posting."
+
+                                />
+                            <FrameLayout
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/post_free"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp">
+                                <TextView
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="#fff"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Post Property Free"
+
+                                    />
+
+
+
+                            </FrameLayout>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_marginTop="@dimen/home_size_text19sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="@dimen/home_long_size"
+                        android:id="@+id/new_projects_alt"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NEW PROJECTS"
+
+                        />
+                    <TextView
+                        android:textColor="@color/brown"
+                        android:textSize="12sp"
+                        android:id="@+id/see_all_new_project"
+                        android:layout_marginRight="15dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See All"
+
+                        />
+
+
+                </FrameLayout>-->
+
+                <HorizontalScrollView
+
+                    android:layout_marginTop="@dimen/home_size_text12sp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:layout_marginRight="10dp"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="185dp">
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:id="@+id/new_projects_home"
+
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp" />
+                            <FrameLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/premium_back"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_marginLeft="05dp"
+                                    android:layout_marginRight="05dp"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:textColor="#000"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:text="PREMIUM"
+                                    />
+
+
+
+                            </FrameLayout>
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 1.12 Crore, 3BHK Apartment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sobha City"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sector 4 Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_eight"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp" />
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 8.35 Crore, 3BHK Apartment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sobha City"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sector 4 Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <FrameLayout
+                    android:layout_marginTop="@dimen/home_size_text19sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="@dimen/home_long_size"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HOT PROPERTIES"
+
+                        />
+                    <TextView
+                        android:textColor="@color/brown"
+                        android:textSize="12sp"
+                        android:id="@+id/see_all_hot_properties"
+                        android:layout_marginRight="15dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See All"
+
+                        />
+
+
+                </FrameLayout>
+
+                <HorizontalScrollView
+
+                    android:layout_marginTop="@dimen/home_size_text12sp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:layout_marginRight="10dp"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp">
+
+                    <LinearLayout
+                        android:id="@+id/hot_properties_nr"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:layout_height="185dp">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_six"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp" />
+                            <FrameLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/premium_back"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_marginLeft="05dp"
+                                    android:layout_marginRight="05dp"
+                                    android:textStyle="bold"
+                                    android:textSize="10sp"
+                                    android:textColor="#000"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:text="PREMIUM"
+                                    />
+
+
+
+                            </FrameLayout>
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 1.12 Crore, 3BHK Apartment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sobha City"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="260dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/imagesixs"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp" />
+                            <ImageView
+                                android:layout_gravity="end"
+                                android:layout_width="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/heart"
+                                android:layout_height="25dp" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="95dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="@dimen/home_card_long"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="₹ 8.12 Crore, 4 BHK Flat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+
+                                    />
+                                <LinearLayout
+                                    android:layout_marginTop="05dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="18dp">
+
+
+                                    <FrameLayout
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="05dp"
+                                            android:layout_marginLeft="05dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ready to move"
+
+                                            />
+
+
+                                    </FrameLayout>
+                                    <FrameLayout
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/ready_background"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+                                        <TextView
+                                            android:layout_marginRight="08dp"
+                                            android:layout_marginLeft="08dp"
+                                            android:textColor="#000"
+                                            android:layout_gravity="center"
+                                            android:textSize="@dimen/background_card_sample"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Resale"
+
+                                            />
+
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_marginTop="07dp"
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Para, Sector 70 A,"
+                                    android:textColor="#000"
+
+                                    />
+
+                                <TextView
+                                    android:textSize="@dimen/background_text_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gurgaon"
+                                    android:textColor="#000"
+
+                                    />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <FrameLayout
+                    android:layout_marginTop="@dimen/home_size_text19sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="@dimen/home_long_size"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Featured Product"
+
+                        />
+                    <TextView
+                        android:textColor="@color/brown"
+                        android:textSize="12sp"
+                        android:id="@+id/see_all_featured_product"
+                        android:layout_marginRight="15dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See All"
+
+                        />
+
+
+                </FrameLayout>
+                <HorizontalScrollView
+
+                    android:layout_marginTop="@dimen/home_size_text12sp"
+                    android:layout_marginLeft="10dp"
+                    android:fillViewport="true"
+                    android:layout_marginRight="10dp"
+                    android:measureAllChildren="false"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <FrameLayout
+
+                            android:background="@drawable/background_search"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_five"
+                                android:layout_width="260dp"
+                                android:layout_height="100dp" />
+                            <FrameLayout
+                                android:layout_marginTop="105dp"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                                <LinearLayout
+                                    android:layout_marginLeft="75dp"
+                                    android:orientation="vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:textSize="@dimen/home_card_long"
+                                        android:textColor="#000"
+
+                                        android:textStyle="bold"
+                                        android:text="Tulif Leaf"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+
+
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="02dp"
+                                        android:textSize="12sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="3 BHK Apartment"
+                                        android:textColor="#000"
+
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="02dp"
+                                        android:textSize="12sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Sector 59"
+                                        android:textColor="#000"
+
+                                        />
+
+
+
+                                </LinearLayout>
+                                <FrameLayout
+                                    android:layout_gravity="bottom"
+                                    android:layout_margin="1dp"
+                                    android:background="@drawable/home_features_background"
+                                    android:layout_width="260dp"
+                                    android:layout_height="40dp">
+                                    <TextView
+                                        android:textSize="@dimen/home_card_long"
+                                        android:textColor="#000"
+                                        android:textStyle="bold"
+                                        android:layout_gravity="center_horizontal|center_vertical"
+                                        android:text="₹ 1.12 Crore-1.23 Crore"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+
+
+                                        />
+
+
+
+                                </FrameLayout>
+                            </FrameLayout>
+
+                        </FrameLayout>
+                        <FrameLayout
+
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/background_search"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+
+                                android:fitsSystemWindows="true"
+                                android:background="@drawable/property_five"
+                                android:layout_width="260dp"
+                                android:layout_height="100dp" />
+                            <FrameLayout
+                                android:layout_marginTop="105dp"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                                <LinearLayout
+                                    android:layout_marginLeft="75dp"
+                                    android:orientation="vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:textSize="@dimen/home_card_long"
+                                        android:textColor="#000"
+
+                                        android:textStyle="bold"
+                                        android:text="Tulif Leaf"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+
+
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="02dp"
+                                        android:textSize="12sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="3 BHK Apartment"
+                                        android:textColor="#000"
+
+                                        />
+
+                                    <TextView
+                                        android:layout_marginTop="02dp"
+                                        android:textSize="12sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Sector 59"
+                                        android:textColor="#000"
+
+                                        />
+
+
+
+                                </LinearLayout>
+                                <FrameLayout
+                                    android:layout_margin="1dp"
+                                    android:layout_gravity="bottom"
+                                    android:background="@drawable/home_features_background"
+                                    android:layout_width="260dp"
+                                    android:layout_height="40dp">
+                                    <TextView
+                                        android:textSize="@dimen/home_card_long"
+                                        android:textColor="#000"
+                                        android:textStyle="bold"
+                                        android:layout_gravity="center_horizontal|center_vertical"
+                                        android:text="₹ 1.12 Crore-1.23 Crore"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+
+
+                                        />
+
+
+
+                                </FrameLayout>
+                            </FrameLayout>
+
+                        </FrameLayout>
+
+
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

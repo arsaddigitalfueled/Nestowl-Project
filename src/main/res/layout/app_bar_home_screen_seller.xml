@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreenSeller">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_gravity="end|center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp">
+                    <FrameLayout
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp">
+                        <ImageView
+                            android:src="@drawable/send_icons"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp" />
+                        <FrameLayout
+                            android:layout_gravity="end|center_vertical"
+                            android:background="@drawable/send_icon_background"
+
+                            android:layout_width="10dp"
+                            android:layout_height="10dp">
+                            <TextView
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4"
+                                android:textColor="#000"
+                                android:textSize="08sp"
+                                />
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:id="@+id/frame_toolbar_seller"
+                        android:background="@drawable/toolbar_req_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp">
+                        <TextView
+                            android:paddingRight="05dp"
+                            android:paddingLeft="05dp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"
+                            android:layout_gravity="center"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Post Requirements"
+                            />
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+
+            </FrameLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_home_screen_seller" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:id="@+id/bottom_sellerr"
+        android:background="#fff"
+        app:labelVisibilityMode="labeled"
+
+
+        app:menu="@menu/bottom_navigation_two"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.Fragment.ProjectPhotos">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <FrameLayout
+                android:background="@drawable/chat_background"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_gravity="center"
+                    android:textSize="14sp"
+                    android:textColor="@color/brown_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat"
+
+                    />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/chat_background"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_gravity="center"
+                    android:textSize="14sp"
+                    android:textColor="@color/brown_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enquire Now"
+
+                    />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/contact_builder"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="40dp">
+                <TextView
+                    android:id="@+id/tv_contact_builder"
+                    android:layout_gravity="center"
+                    android:textSize="13sp"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Builder"
+
+                    />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_marginBottom="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/background_image_personal"
+                    android:layout_height="220dp">
+
+
+                </FrameLayout>
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:focusable="true"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/background_image_personal"
+                    android:layout_height="220dp">
+
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:focusable="true"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/background_image_personal"
+                    android:layout_height="150dp">
+
+
+
+                </ImageView>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="05dp"
+    tools:context="com.example.Fragment.MyRequirement">
+    <LinearLayout
+
+        android:layout_marginTop="05dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/rg_group"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+
+
+            <RadioButton
+                android:id="@+id/radiobutton"
+                android:buttonTint="@color/black_light"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:checked="false"
+                android:textColor="#000"
+                android:text="Accepted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+
+                android:id="@+id/radiobutton1"
+
+                android:checked="false"
+
+                android:layout_weight="1"
+                android:buttonTint="@color/black_light"
+
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:text="Received"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/radiobutton2"
+
+                android:checked="false"
+
+                android:layout_weight="1"
+                android:buttonTint="@color/black_light"
+
+
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:text="Pending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_gravity="center"
+                android:src="@drawable/post_pro_two"
+                android:layout_height="75dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:text="No response received yet"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black_light"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:text="Hold on Buyers are slightly,confused with"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black_light"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:text="the number of genuine property options"
+                android:layout_height="wrap_content" />
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="05dp"
+                android:background="@drawable/background_edit_camera">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:text="Check this page later for more updates"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+</LinearLayout>

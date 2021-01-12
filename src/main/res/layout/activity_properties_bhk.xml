@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PropertiesBhkActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+                <TextView
+                    android:text="10 Photos"
+                    android:textSize="12sp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="end|center_vertical"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+
+
+<LinearLayout
+    android:layout_gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/left_arrow"
+        android:layout_width="18sp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="08dp"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:text="₹ 1.12 Cr"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:text="4 BHK Flat"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+            </FrameLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs_properties"
+        app:tabSelectedTextColor="@color/brown_color"
+        app:tabTextColor="#000"
+
+        app:tabIndicatorColor="@color/brown_color"
+
+        app:tabIndicatorHeight="03dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        app:tabGravity="fill"
+
+        app:tabTextAppearance="@style/tab_text"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Fragment.PropertiesOfferedSecondd">
+
+    <RadioGroup
+        android:layout_marginLeft="05dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rg_two"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+
+
+        <RadioButton
+            android:id="@+id/radio_rq"
+            android:buttonTint="@color/brown_color"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:checked="false"
+            android:textColor="#000"
+            android:text="Owner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+
+            android:id="@+id/radiobutton_rq"
+
+            android:checked="false"
+
+            android:layout_weight="1"
+            android:buttonTint="@color/brown_color"
+
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="Agent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radiobutton_rq_tw"
+
+            android:checked="false"
+
+            android:layout_weight="1"
+            android:buttonTint="@color/brown_color"
+
+
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="Builders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+
+</FrameLayout>

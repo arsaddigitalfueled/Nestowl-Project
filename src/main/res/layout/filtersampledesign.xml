@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="550dp">
+
+    <FrameLayout
+        android:layout_marginTop="15dp"
+        android:background="@drawable/filter_background"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<FrameLayout
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:text="Filters"
+        />
+    <ImageView
+        android:src="@drawable/close_icon_search"
+        android:layout_width="12dp"
+
+        android:layout_gravity="end|center_vertical"
+        android:layout_height="12dp" />
+
+
+</FrameLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="55dp"
+            android:background="#A7A6A6" />
+
+<LinearLayout
+    android:layout_marginLeft="10dp"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort by"
+        />
+    <TextView
+        android:layout_marginTop="03dp"
+        android:textColor="@color/brown_color"
+        android:textStyle="bold"
+        android:textSize="9sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        />
+
+
+</LinearLayout>
+        <RadioGroup
+            android:layout_marginTop="95dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="07dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <RadioButton
+                android:buttonTint="@color/brown_color"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:textColor="@color/black_light"
+                android:text="Today"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+
+
+                android:checked="false"
+                android:layout_marginTop="10dp"
+
+
+                android:buttonTint="@color/brown_color"
+
+                android:textSize="14sp"
+                android:textColor="@color/black_light"
+                android:text="Previous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+
+                android:checked="false"
+
+                android:layout_marginTop="10dp"
+                android:buttonTint="@color/brown_color"
+
+
+                android:textSize="13sp"
+                android:textColor="@color/black_light"
+                android:text="Ongoing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+
+                android:checked="false"
+
+                android:layout_marginTop="10dp"
+                android:buttonTint="@color/brown_color"
+
+
+                android:textSize="13sp"
+                android:textColor="@color/black_light"
+                android:text="Accepted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+<TextView
+    android:layout_width="1dp"
+    android:background="@color/line_color"
+    android:layout_marginTop="55dp"
+    android:layout_marginRight="35dp"
+    android:layout_marginLeft="135dp"
+    android:layout_marginBottom="55dp"
+    android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:background="@drawable/background_lead_format"
+            android:layout_marginLeft="136dp"
+            android:layout_marginTop="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="13sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lead Format"
+
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="16dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lead Status"
+
+                    />
+                <TextView
+                android:textStyle="bold"
+                android:textColor="#000"
+                    android:layout_marginTop="16dp"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Projects"
+
+                />
+
+                <TextView
+                android:textStyle="bold"
+                android:textColor="#000"
+                    android:layout_marginTop="16dp"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proper Type"
+
+                />
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="55dp"
+            android:background="@color/line_color" />
+        <FrameLayout
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="05dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear All"
+                />
+
+            <FrameLayout
+                android:background="@drawable/contact_builder"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="65dp"
+                android:layout_gravity="end|center_vertical"
+
+                android:layout_height="32dp">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:textSize="14sp"
+                    android:id="@+id/tv_view_profile"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apply"
+
+                    />
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

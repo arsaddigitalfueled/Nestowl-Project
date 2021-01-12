@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newprojectr">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ReviewMainActivity"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.Fragment.PropertiesOfferedSecond" />
+        <activity
+            android:name=".ScreenSixteenDetailsPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NestOwnersSixteen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReraActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SahilDahiyaReviews"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OwnerPlans"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SaveMoreActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SaveMoreSeeifEligible"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SecondDealOffer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewProjectHomeBuyer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FiltersScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchViewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReviewBuyerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReviewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PostPropertyViewPagerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PostRequirementSkip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartOfferDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakeOfferActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartAnOffer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PostPropertyActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AkshitActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BuyerDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NestProSecondProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NestProDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SaleProperties"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmentiesActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PropertiesBhkActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeScreenSeller"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BuyerSellerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SahilDahiyaTwo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SahilDahiyaCircle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

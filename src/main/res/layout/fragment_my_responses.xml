@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.Fragment.MyResponses">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:measureAllChildren="false"
+        android:scrollbars="none"
+        android:layout_height="32dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+<!--
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:background="@drawable/search_by_activity"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:entries="@array/listed_to"
+                    />
+
+
+            </FrameLayout>-->
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/filter_sample_id"
+                android:background="@drawable/search_by_activity"
+                android:layout_height="32dp">
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Search by Id"
+                    />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:background="@drawable/lead_typ_background"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+
+                    android:entries="@array/lead_format"
+                    />
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:layout_marginRight="05dp"
+
+                android:background="@drawable/search_by_activity"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="05dp"
+
+                    android:entries="@array/lead_status"
+                    />
+
+
+            </FrameLayout>
+
+<!--
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:layout_marginRight="05dp"
+
+                android:background="@drawable/search_by_activity"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="05dp"
+
+                    android:entries="@array/property_type"
+                    />
+
+
+            </FrameLayout>
+-->
+
+        </LinearLayout>
+
+
+
+
+    </HorizontalScrollView>
+    <FrameLayout
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/post_pro_two"
+                    android:layout_height="75dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_horizontal"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:text="No response received yet"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/black_light"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:text="Hold on Buyers are slightly,confused with"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/black_light"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:text="the number of genuine property options"
+                    android:layout_height="wrap_content" />
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_all_45sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="05dp"
+                    android:background="@drawable/background_edit_camera">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Check this page later for more updates"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

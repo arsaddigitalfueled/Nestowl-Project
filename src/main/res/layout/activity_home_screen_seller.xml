@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_home_screen_seller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_home_screen_seller">
+
+
+    <ScrollView
+        android:layout_marginTop="140dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="06dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Home"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Properties for Buy"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Saved Properties"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Recent Search"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/background_drawel_black_shape"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+                    <TextView
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="Sell / Rent Your Property"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+
+
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="06dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Post Property"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:id="@+id/lnr_owner_plans_id"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Owner Plans"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Manage / Edit Listing"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="View Leads"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Proposal Received"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Buy Our Service"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/background_drawel_black_shape"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+                    <TextView
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="We Care"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+
+
+
+                </FrameLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="06dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Blog"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Feedback"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Rate Us"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Share"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="About Us"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Terms of Use"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="@dimen/drawer_top_15dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/drawer_img_size22sp"
+                        android:layout_height="@dimen/drawer_img_size22sp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/nestowll_icon" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05dp"
+                        android:text="Contact"
+                        android:textColor="#000"
+                        android:textSize="@dimen/drawer_14dp"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

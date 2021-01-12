@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReviewMainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner"
+            android:textColor="#000"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_search"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="05dp"
+            android:paddingTop="05dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+
+            <FrameLayout
+                android:layout_width="45dp"
+                android:background="@drawable/circle_background"
+                android:layout_height="45dp">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:src="@drawable/user_icon_p"
+                    android:layout_gravity="center"
+                    android:layout_height="45dp" />
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginLeft="55dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajesh Singh"
+                    android:textColor="#000"
+
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Has a Closed a 2BHK deal with you"
+                    android:textColor="@color/black_light"
+
+                    android:textSize="12sp"
+
+                    />
+
+
+
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_marginTop="05dp"
+                    android:layout_gravity="end"
+                    android:id="@+id/buyer_owner_lnr"
+                    android:background="@drawable/employe_circle_rounded"
+                    android:layout_marginRight="05dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:text="Buyer"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:textSize="14sp"
+
+                        android:textColor="@color/brown_color"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="07dp"
+                android:layout_gravity="bottom|end"
+                android:id="@+id/owner_write_review_first"
+                android:background="@drawable/nest_pro_rectangle"
+                android:layout_marginRight="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:text="Write a Review"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_gravity="center_vertical"
+                    android:textSize="14sp"
+
+                    android:textColor="@color/brown_color"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_search"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="05dp"
+            android:paddingTop="05dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <FrameLayout
+                android:layout_width="45dp"
+                android:background="@drawable/circle_background"
+                android:layout_height="45dp">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:src="@drawable/user_icon_p"
+                    android:layout_gravity="center"
+                    android:layout_height="45dp" />
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginLeft="55dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajesh Singh"
+                    android:textColor="#000"
+
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Has a Closed a 2BHK deal with you"
+                    android:textColor="@color/black_light"
+
+                    android:textSize="12sp"
+
+                    />
+
+
+
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_marginTop="05dp"
+                    android:layout_gravity="end"
+                    android:id="@+id/nest_pro_lnr"
+                    android:background="@drawable/employe_circle_rounded"
+                    android:layout_marginRight="05dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:text="Nest Pro"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:textSize="14sp"
+
+                        android:textColor="@color/brown_color"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="07dp"
+                android:layout_gravity="bottom|end"
+                android:id="@+id/owner_write_review_second"
+                android:background="@drawable/nest_pro_rectangle"
+                android:layout_marginRight="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:text="Write a Review"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="14sp"
+
+                    android:textColor="@color/brown_color"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer"
+            android:textColor="#000"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_search"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="05dp"
+            android:paddingTop="05dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <FrameLayout
+                android:layout_width="45dp"
+                android:background="@drawable/circle_background"
+                android:layout_height="45dp">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:src="@drawable/user_icon_p"
+                    android:layout_gravity="center"
+                    android:layout_height="45dp" />
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginLeft="55dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajesh Singh"
+                    android:textColor="#000"
+
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Has a Closed a 2BHK deal with you"
+                    android:textColor="@color/black_light"
+
+                    android:textSize="12sp"
+
+                    />
+
+
+
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_marginTop="05dp"
+                    android:layout_gravity="end"
+                    android:id="@+id/seller_lnr_second_design"
+                    android:background="@drawable/employe_circle_rounded"
+                    android:layout_marginRight="05dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:text="Seller"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:textSize="14sp"
+
+                        android:textColor="@color/brown_color"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="07dp"
+                android:layout_gravity="bottom|end"
+                android:id="@+id/owner_write_review_third"
+                android:background="@drawable/nest_pro_rectangle"
+                android:layout_marginRight="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:text="Write a Review"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="14sp"
+
+                    android:textColor="@color/brown_color"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am for Broker"
+            android:textColor="#000"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_search"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="05dp"
+            android:paddingTop="05dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <FrameLayout
+                android:layout_width="45dp"
+                android:background="@drawable/circle_background"
+                android:layout_height="45dp">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:src="@drawable/user_icon_p"
+                    android:layout_gravity="center"
+                    android:layout_height="45dp" />
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginLeft="55dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajesh Singh"
+                    android:textColor="#000"
+
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Has a Closed a 2BHK deal with you"
+                    android:textColor="@color/black_light"
+
+                    android:textSize="12sp"
+
+                    />
+
+
+
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_marginTop="05dp"
+                    android:layout_gravity="end"
+                    android:id="@+id/builder_lnr"
+                    android:background="@drawable/employe_circle_rounded"
+                    android:layout_marginRight="05dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:text="Builder"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:textSize="14sp"
+
+                        android:textColor="@color/brown_color"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="07dp"
+                android:layout_gravity="bottom|end"
+                android:id="@+id/owner_write_review_four"
+                android:background="@drawable/nest_pro_rectangle"
+                android:layout_marginRight="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:text="Write a Review"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="14sp"
+
+                    android:textColor="@color/brown_color"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</LinearLayout>

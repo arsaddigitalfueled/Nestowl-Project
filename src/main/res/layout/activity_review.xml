@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".ReviewActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/cross_icon"
+                        android:layout_width="25dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="25sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:text="Review"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="40dp"
+                        android:background="@drawable/circle_background"
+                        android:layout_height="40dp">
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_marginBottom="05dp"
+                            android:src="@drawable/user_icon_nest"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:layout_height="25dp" />
+
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ace Associates"
+                            android:textColor="#000"
+
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+
+                            />
+
+
+
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#A7A6A6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:text="Choose a Rating:"
+                    />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+
+
+                    <RatingBar
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:numStars="5"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:id="@+id/rating"
+                        android:clickable="true"
+                        android:layout_height="45dp" />
+
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:textSize="10dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Your Rating"
+                        />
+                </LinearLayout>
+                <FrameLayout
+                    android:background="@drawable/background_search"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="130dp">
+                    <EditText
+                        android:layout_gravity="start"
+                        android:textColorHint="@color/black_light"
+                        android:layout_marginLeft="10dp"
+                        android:singleLine="true"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:layout_marginTop="10dp"
+                        android:backgroundTint="@null"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Write a Review"
+                        />
+
+
+
+                </FrameLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black_light"
+                    android:layout_height="wrap_content"
+                    android:text="Describe your experiance, please be objective, respectful,and write at least 20 words."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:text="Upload Project Photos:"
+                    />
+                <FrameLayout
+                    android:background="@drawable/background_search"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="85dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_marginBottom="05dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/camera_nest"
+                        android:layout_height="30dp" />
+
+                    <EditText
+                        android:layout_gravity="center"
+                        android:textColorHint="@color/black_light"
+                        android:singleLine="true"
+                        android:background="@null"
+                        android:textSize="12sp"
+                        android:layout_marginTop="20dp"
+                        android:backgroundTint="@null"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Add"
+                        />
+
+
+
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <CheckBox
+
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textColor="#000"
+                        android:textSize="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I confirm that the information submitted here is true and accurate."
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#A7A6A6" />
+
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+
+                android:id="@+id/id_submit_review"
+                android:layout_marginTop="15dp"
+                android:text="Submit"
+
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/countinue_background"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

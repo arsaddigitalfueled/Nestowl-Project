@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewProjectHomeBuyer">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/left_arrow"
+                        android:layout_width="15sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="12dp"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:text="New Projects"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            />
+
+                        <TextView
+                            android:text="468 Result"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:measureAllChildren="false"
+        android:scrollbars="none"
+        android:layout_height="35dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:background="@drawable/proposal_status"
+                android:layout_height="30dp">
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+
+                    android:theme="@style/mySpinnerItemStyle"
+
+                    android:textColor="@color/brown_color"
+
+
+                    android:entries="@array/budget"
+                    />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:background="@drawable/proposal_status"
+                android:layout_height="30dp">
+                <Spinner
+                    android:theme="@style/mySpinnerItemStyle"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+
+                    android:entries="@array/bhk"
+                    />
+
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:background="@drawable/proposal_status"
+                android:layout_height="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center|center_vertical"
+                    android:layout_height="30dp"
+                    android:textColor="@color/brown_color"
+                    android:layout_marginRight="10dp"
+                    android:text="Ready to move"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:layout_marginRight="05dp"
+                android:background="@drawable/proposal_status"
+                android:layout_height="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center|center_vertical"
+                    android:layout_height="30dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/brown_color"
+                    android:text="Under Construction"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:layout_marginRight="05dp"
+                android:background="@drawable/proposal_status"
+                android:layout_height="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center|center_vertical"
+                    android:layout_height="30dp"
+                    android:textColor="@color/brown_color"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+
+                    android:text="Pre Launch"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </HorizontalScrollView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#A7A6A6" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/nest_card_back"
+        android:layout_width="match_parent"
+        android:layout_height="320dp">
+
+        <FrameLayout
+
+            android:background="@drawable/background_image_personal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+            <ImageView
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="20dp"
+                android:src="@drawable/heart_icon_black_trans"
+                android:layout_gravity="end"
+                android:layout_height="20dp" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/make_offer_img_back">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Pre-Launch"
+                    android:layout_gravity="center_vertical|center"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="12sp" />
+
+
+            </FrameLayout>
+
+
+        </FrameLayout>
+<FrameLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+
+        android:background="@drawable/top_image">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="70dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginLeft="08dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Orchid Island"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Palam Vihar,"
+                android:textSize="12sp"
+                android:layout_marginTop="03dp"
+                android:textColor="@color/black_light"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Gurgaon,"
+                android:textSize="12sp"
+                android:layout_marginTop="03dp"
+
+                android:textColor="@color/black_light"
+                android:layout_height="wrap_content"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="₹ 72 Lac - 1.2 Crore"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="2,3 BHK Flat"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="03dp"
+            android:textColor="@color/black_light"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Ready to Move,"
+            android:textSize="12sp"
+            android:layout_marginTop="03dp"
+
+            android:textColor="@color/black_light"
+            android:layout_height="wrap_content"
+
+            />
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp"
+
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="2 BHK Flat"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/brown_color"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="1381 sq.ft."
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:textColor="@color/brown_color"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="₹ 1.49 Crore"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:textColor="@color/black_light"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/call_icon"
+                android:layout_height="20dp" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="2 BHK Flat"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/brown_color"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="1381 sq.ft."
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:textColor="@color/brown_color"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="₹ 1.49 Crore"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:textColor="@color/black_light"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/call_icon"
+                android:layout_height="20dp" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+    <FrameLayout
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="05dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="SEE ALL"
+                android:textSize="12sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginLeft="05dp"
+                android:layout_width="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/arrow_down_filter"
+                android:layout_height="12dp" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/sort_filter_back"
+        android:layout_height="30dp">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/sort_icon"/>
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sort"
+                    android:layout_marginRight="05dp"
+                    android:layout_marginLeft="05dp"
+
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+
+                android:layout_width="1dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_height="30dp"
+                android:background="#A7A6A6" />
+
+            <LinearLayout
+                android:layout_marginLeft="55dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="12dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/filter_iconn"/>
+                <TextView
+                    android:layout_marginLeft="05dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Filters"
+
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:layout_marginRight="05dp"
+                    />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nestowll_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_for_buy" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_saved" />
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_Recent" />
+        <item
+            android:id="@+id/nave_proposal"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_proposal" />
+        <item android:title="Sell / Rent Your Property">
+
+        </item>
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_post" />
+        <item
+            android:id="@+id/owner"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_owner" />
+        <item
+            android:id="@+id/manage"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_manage" />
+        <item
+            android:id="@+id/view_leads"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_view" />
+        <item
+            android:id="@+id/proposal"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_proposal_recv" />
+        <item
+            android:id="@+id/buy_our"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_buy_our" />
+        <item android:title="We Care"/>
+
+        <item
+            android:id="@+id/blog"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_blog" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_feedback" />
+        <item
+            android:id="@+id/rate_us"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_rate" />
+        <item
+            android:id="@+id/share_nav"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_about" />
+        <item
+            android:id="@+id/about_nav"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_terms" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/home_icon_tym"
+            android:title="@string/menu_contact" />
+
+
+    </group>
+
+
+</menu>

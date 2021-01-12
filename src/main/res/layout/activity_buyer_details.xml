@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BuyerDetails">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/left_arrow"
+                        android:layout_width="15sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:text="Buyer Details"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="45dp"
+                android:background="@drawable/circle_background"
+                android:layout_height="45dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginBottom="05dp"
+                    android:src="@drawable/face_icon"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_height="30dp" />
+
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginLeft="05dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rahul Yadav"
+                    android:textColor="#000"
+
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="has sent you a Proposal for requirement"
+                    android:textColor="@color/black_light"
+
+                    android:textSize="12sp"
+
+                    />
+                <FrameLayout
+                    android:background="@drawable/contact_builder"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="05dp"
+
+                    android:layout_height="@dimen/view_profile_offer_28sp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:textSize="10sp"
+
+                        android:id="@+id/tv_akshit"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View Profile"
+
+                        />
+
+                </FrameLayout>
+
+
+
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="05dp"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nest_circle_back"
+                        android:layout_height="25dp" />
+
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_marginLeft="05dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nest_circle_back"
+                        android:layout_height="25dp" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Requirements"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+
+
+                    />
+
+
+
+
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:background="@drawable/nest_card_back"
+                android:layout_weight="1"
+
+                android:layout_height="110dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BHK"
+                        android:textSize="14sp"
+                        android:layout_marginTop="10dp"
+
+
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 BHK"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+
+
+                        android:textColor="#000"
+                        />
+                </LinearLayout>
+
+
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:background="@drawable/nest_card_back"
+                android:layout_weight="1"
+                android:layout_marginLeft="05dp"
+
+                android:layout_height="110dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Locality"
+                        android:textSize="14sp"
+                        android:layout_marginTop="10dp"
+
+
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Palam"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+
+
+                        android:textColor="#000"
+                        />
+                </LinearLayout>
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_marginLeft="05dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/nest_card_back"
+                android:layout_weight="1"
+
+                android:layout_height="110dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Budget"
+                        android:textSize="14sp"
+                        android:layout_marginTop="10dp"
+
+
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹ 4 lac"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+
+
+                        android:textColor="#000"
+                        />
+                </LinearLayout>
+
+
+
+
+            </FrameLayout>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interested Property"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+
+
+            />
+        <FrameLayout
+
+            android:background="@drawable/nest_card_back"
+            android:layout_width="275dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="100dp">
+            <FrameLayout
+
+                android:fitsSystemWindows="true"
+                android:background="@drawable/background_image_personal"
+                android:layout_width="130dp"
+                android:layout_marginLeft="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="98dp" />
+
+
+            <LinearLayout
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:textSize="12sp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:text="2 BHK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                    <FrameLayout
+                        android:layout_marginLeft="35dp"
+                        android:layout_width="45dp"
+                        android:background="@drawable/active_background"
+                        android:layout_height="15dp">
+                        <TextView
+                            android:paddingLeft="7dp"
+                            android:paddingRight="7dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Active"
+                            android:textSize="10dp"
+                            android:textColor="#20C727"
+
+
+                            />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="680 Sq.ft."
+                    android:textColor="@color/black_light"
+                    android:layout_marginTop="07dp"
+
+                    />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:layout_marginTop="07dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹ 2 Crore"
+                    android:textColor="#000"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="05dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_marginTop="03dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/location_top"
+                        />
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="05dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tilak Nagar"
+                        android:textColor="#000"
+
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:measureAllChildren="false"
+        android:scrollbars="none"
+        android:layout_height="@dimen/bottom_size_height_button_40sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:background="@drawable/nest_pro_rectangle"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="Accept"
+                    android:textColor="@color/brown_color"
+
+                    />
+
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:background="@drawable/nest_pro_rectangle"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/brown_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reject"
+
+                    />
+
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:background="@drawable/nest_pro_rectangle"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/brown_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat"
+
+                    />
+
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:background="@drawable/nest_pro_rectangle"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/brown_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Contact"
+
+                    />
+
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/nest_pro_rectangle"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+
+                    android:textColor="@color/brown_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Offer"
+
+                    />
+
+
+
+            </FrameLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+
+
+</FrameLayout>
+
+</LinearLayout>

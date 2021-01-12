@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchViewActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/close_icon_search"
+            android:layout_height="18dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Locality or Project in Gurgaon"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+
+            />
+        <FrameLayout
+            android:background="@drawable/background_search"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="45dp">
+            <EditText
+                android:layout_gravity="center_vertical"
+                android:textColorHint="#C4BEBE"
+                android:layout_marginLeft="10dp"
+                android:singleLine="true"
+                android:background="@null"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Project,Property Details"
+                />
+
+
+
+
+
+
+
+            <ImageView
+
+                android:layout_gravity="end|center_vertical"
+                android:layout_width="20dp"
+                android:layout_marginRight="05dp"
+                android:layout_height="20dp"
+                android:id="@+id/search_filters"
+
+                android:src="@drawable/serch_iconp"
+                />
+
+        </FrameLayout>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:background="#A7A6A6" />
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/city_centric_back"
+    android:layout_height="40dp">
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previouse Location"
+        android:textColor="#000"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+
+        />
+
+</FrameLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#A7A6A6" />
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sector 56"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#A7A6A6" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sector 57"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#A7A6A6" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sector 58"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#A7A6A6" />
+
+    </LinearLayout>
+
+</LinearLayout>
